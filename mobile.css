@@ -1,0 +1,189 @@
+@media (width < 768px) {
+  header{
+    background-image: url(./Assets/background.png);
+  }
+
+  nav{
+    width: 90%;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  header{
+    height: 870px;
+    background-size: 2600px, auto, auto;
+  }
+
+  section{
+    max-width: 90%;
+  }
+
+  .heading{
+    font-size: 36px;
+  }
+
+  .header_content{
+    flex-direction: column;
+    width: 90%;
+    justify-content: start;
+  }
+
+  .header_left{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_right{
+    width: 90%;
+  }
+
+  .header_right::after{
+    left: 5%;
+    top: 4%;
+  }
+
+  .header_content h1{
+    font-size: 44px;
+    /* width: 85%; */
+    margin: 20px 0;
+  }
+
+  .header_content .headlin{
+    font-size: 12px;
+    margin-top: 35px;
+  }
+  .header_content .headlin2{
+    font-size: 15px;
+    line-height: 1.3;
+    max-width: 94%;
+  }
+
+  .header_content button{
+    width: 90%;
+    justify-content: center;
+    margin: 25px 0;
+  }
+
+  nav li a{
+    font-size: 14px;
+  }
+
+  .top_part{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tl_part, .tr_part{
+    width: 100%;
+  }
+
+  .tr_part{
+    gap: 12px;
+  }
+
+  .bottom_part{
+    margin: 14px 0 50px;
+    flex-direction: column;
+  }
+
+  .bl_part, .br_part{
+    width: 100%;
+  }
+
+  .bl_part{
+    gap: 14px;
+  }
+
+  .project_container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project{
+    padding: 16px 12px;
+    border-radius: 12px;
+  }
+
+  .project h4{
+    font-size: 20px;
+    margin: 12px 0;
+  }
+
+  .project > p{
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .project_skills div{
+    width: 34px;
+    height: 34px;
+  }
+
+  .project_skills div::after{
+    width: 36px;
+    height: 36px;
+  }
+
+  .project_skills div img{
+    width: 17px;
+  }
+
+  .project_skills .div1{
+    left: 0;
+  }
+  
+  .project_skills .div2{
+    left: 28px;
+  }
+  .project_skills .div3{
+    left: 58px;
+  }
+  .project_skills .div4{
+    left: 88px;
+  }
+  .project_skills .div5{
+    left: 118px;
+  }
+
+  /* .project_demo{
+    top: 0;
+    transform: translateY(0);
+  } */
+
+  .project_info{
+    height: 35px;
+  }
+
+  .project_demo a{
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .review{
+    width: 100%;
+  }
+
+  .company{
+    justify-content: center;
+    gap: 1.3rem 2rem;
+  }
+
+  .review > p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .client_bio h5{
+    font-size: 16px;
+  }
+
+  .client_bio p{
+    font-size: 12px;
+  }
+
+  .company img{
+    width: 40%;
+  }
+}
