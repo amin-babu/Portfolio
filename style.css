@@ -445,6 +445,7 @@ nav li a:hover::after{
   align-items: center;
   gap: 20px;
   border-radius: 22px;
+  border-top: 5px solid #161935;
 } 
 
 .experinece .exp_info h4{
