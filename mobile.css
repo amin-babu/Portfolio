@@ -186,4 +186,31 @@
   .company img{
     width: 40%;
   }
+
+  /* experience section */
+
+  .experience_container{
+    flex-direction: column;
+  }
+
+  .experinece{
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    align-items: flex-start;
+    border-radius: 10px;
+  }
+
+  .experinece img{
+    width: 66px;
+  }
+
+  .experinece .exp_info h4{
+    font-size: 20px;
+  }
+
+  .experinece .exp_info p{
+    font-size: 14px;
+    margin-top: 7px;
+  }
 }
