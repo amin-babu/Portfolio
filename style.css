@@ -465,7 +465,7 @@ nav li a:hover::after{
 .approach_container{
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .approach{
@@ -478,6 +478,40 @@ nav li a:hover::after{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.approach button{
+  font-size: 30px;
+  padding: 18px 25px;
+  border: 1px solid #3637496E;
+  border-radius: 10px;
+  color: #CBACF9;
+  font-weight: 600;
+  background: linear-gradient(to right, #04071D, #0C0E23);
+
+}
+
+.approach_middle{
+  flex-direction: column;
+  text-align: center;
+}
+
+.approach_middle button{
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.approach_middle h3{
+  font-size: 32px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.approach_middle p{
+  font-weight: 400;
+  font-style: 16px;
+  color: #E4ECFF;
+  line-height: 1.4;
 }
 
 .approach .top_left{
