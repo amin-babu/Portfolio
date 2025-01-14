@@ -426,3 +426,35 @@ nav li a:hover::after{
 .company img{
   cursor: pointer;
 }
+
+/* experience_container section */
+
+.experience_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.experinece{
+  background: linear-gradient(to right, #04071D, #0C0E23);
+  padding: 26px;
+  border: 1px solid #3637496E;
+  width: 49%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 22px;
+} 
+
+.experinece .exp_info h4{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.experinece .exp_info p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #BEC1DD;
+  margin-top: 10px;
+}
