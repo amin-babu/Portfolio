@@ -213,4 +213,14 @@
     font-size: 14px;
     margin-top: 7px;
   }
+
+  /* -------Approach Section------- */
+
+  .approach_container{
+    flex-direction: column;
+  }
+
+  .approach{
+    flex: none;
+  }
 }
