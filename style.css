@@ -568,6 +568,10 @@ footer .footer_content h2{
   line-height: 1;
 }
 
+footer .footer_content h2 span{
+  color: #CBACF9;
+}
+
 footer .footer_content p{
   font-size: 16px;
   font-weight: 400;
