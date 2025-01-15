@@ -544,12 +544,20 @@ nav li a:hover::after{
 footer{
   max-width: 80%;
   margin: 0 auto 30px;
+  background: url(./Assets/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 1100px; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 footer .footer_content{
   text-align: center;
   width: 60%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 footer .footer_content h2{
