@@ -488,7 +488,12 @@ nav li a:hover::after{
   color: #CBACF9;
   font-weight: 600;
   background: linear-gradient(to right, #04071D, #0C0E23);
+  cursor: pointer;
+  transition: .5s;
+}
 
+.approach button:hover{
+  border: 1px solid #7373776e;
 }
 
 .approach_middle{
