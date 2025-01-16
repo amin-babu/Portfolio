@@ -603,6 +603,11 @@ footer .footer_content button{
   transition: .5s;
   position: relative;
   justify-content: center;
+  transition: .5s;
+}
+
+footer .footer_content button:hover{
+  border: 1px solid #61647a;
 }
 
 footer .footer_contact{
