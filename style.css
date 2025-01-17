@@ -457,6 +457,10 @@ nav li a:hover::after{
   font-weight: 700;
 }
 
+.experinece img{
+  width: 95px;
+}
+
 .experinece .exp_info p{
   font-size: 16px;
   font-weight: 500;
