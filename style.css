@@ -629,6 +629,7 @@ footer .footer_contact p{
 
 .social img{
   margin-right: 5px;
+  display: inline-block;
 }
 
 
