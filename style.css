@@ -417,6 +417,7 @@ nav li a:hover::after{
 
 .client img{
   width: 50px;
+  border-radius: 50%;
 }
 
 .client_bio h5{
@@ -449,6 +450,8 @@ nav li a:hover::after{
 
 .company img{
   cursor: pointer;
+  max-width: 150px;
+  border-radius: 10px;
 }
 
 /* experience_container section */
@@ -592,7 +595,9 @@ footer .footer_content{
   width: 60%;
   margin: auto;
 }
-
+.footer_content a{
+  text-decoration: none;
+}
 footer .footer_content h2{
   font-size: 47px;
   font-weight: 700;
